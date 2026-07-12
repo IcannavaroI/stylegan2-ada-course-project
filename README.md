@@ -58,9 +58,8 @@ python generate.py --outdir=out --trunc=1 --seeds=0-49 --network=./training-runs
 python calc_metrics.py --metrics=fid50k --network=./training-runs/你的训练目录/network-snapshot-000600.pkl --data=./datasets/metfaces_256.zip
 
 📈 实验结果摘要
-配置	     Batch Size	     显存占用	 sec/kimg	     FID@600kimg
-最优配置	   16	          ~4.8 GB	   ~57.7	        49.16
-更详细的实验设计与分析请参阅 课程设计报告.docx。
+最优配置	   Batch Size：16	   显存占用：~4.8 GB	   sec/kimg：~57.7	        FID@600kimg：49.16
+更详细的实验设计与分析请参阅 课程设计报告。
 
 📝 引用
 本项目基于以下论文和代码仓库：
